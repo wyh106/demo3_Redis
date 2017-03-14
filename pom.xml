@@ -74,6 +74,27 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+
+		<!--
+          包含支持UI模版（Velocity，FreeMarker，JasperReports），
+          邮件服务，
+          脚本服务(JRuby)，
+          缓存Cache（EHCache），
+          任务计划Scheduling（uartz）。
+        -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+		</dependency>
+
+		<!-- 集成ehcache需要的依赖-->
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<build>

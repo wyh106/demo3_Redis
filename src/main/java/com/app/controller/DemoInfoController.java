@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class DemoInfoController {
-    @Autowired
+   /* @Autowired
     DemoInfoService demoInfoService;
 
     @RequestMapping("/test")
@@ -39,5 +39,5 @@ public class DemoInfoController {
         demoInfoService.test();
         System.out.println("DemoInfoController.test1()");
         return"ok";
-    }
+    }*/
 }
