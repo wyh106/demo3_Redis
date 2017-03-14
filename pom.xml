@@ -35,6 +35,45 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Junit测试 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!--
+           包含支持UI模版（Velocity，FreeMarker，JasperReports），
+           邮件服务，
+           脚本服务(JRuby)，
+           缓存Cache（EHCache），
+           任务计划Scheduling（uartz）。
+        -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+		</dependency>
+
+
+		<!-- 添加redis支持-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-redis</artifactId>
+		</dependency>
+
+		<!-- JPA操作数据库. -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<!-- mysql 数据库驱动. -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -45,6 +84,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
 </project>
